@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hartas Podcast</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="general">
+    <nav class="botonera" id="nav">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="logo de hartas podcast">
+            </a>
+            <ul>
+                <li><a href="nosotras.html">Nosotras</a></li>
+                <li><a href="episodios.html">Episodios</a></li>
+                <li><a href="debate.html">Debate</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#opinion">Dejanos tu opinión</a></li>
+            </ul>
+    </nav>
+    <header id="header">
+        <h1 class="textTitulo">HARTAS PODCAST</h1>
+        <img src="img/header.jpg" alt="Header de hartas podcast" class="encabezadoImg--fluid">
+    </header>
+    <main>
+        <h2 class="textSubtitulo">Últimos episodios disponibles</h2>
+        <section class="episodios" id="episodios">
+            <div id="episodioUno">
+                <img src="img/Episodio-10.png" alt="Imagen Episodio 10" class="imagenEpisodio">
+                <h3 class="tituloEnlace"><a href="https://open.spotify.com/episode/41wtMgGjkiSnl79dJ2JG7B?si=c3665d3748a84e24" target="_blank">Episodio 10</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa fugit repudiandae ipsa debitis adipisci? Dolore, voluptatum saepe, blanditiis minus fugit ducimus eaque, vel magni magnam soluta nisi vero necessitatibus libero.</p>
+            </div>
+            <div id="episodioDos">
+                <img src="img/Episodio-9.png" alt="Imagen Episodio 9" class="imagenEpisodio">
+                <h3 class="tituloEnlace"><a href="https://open.spotify.com/episode/0VmLlkvupDN2sLr8AerITh?si=59c2c9be37d544e4" target="_blank">Episodio 9</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cumque assumenda blanditiis itaque, delectus accusamus ex aspernatur amet fugiat tempore, maxime sapiente quam ut aliquam labore mollitia minus esse. Atque.</p>
+            </div>
+        </section>
+        <section class="opinion" id="opinion">
+            <form action="envio.php" method="post" id="opinion">
+                <fieldset>
+                    <legend>¿Qué te parece el contenido del podcast?</legend>
+                    <div>
+                        <label for="buena">Bueno</label>
+                        <input type="radio" value="buena" name="opinion" id="buena" checked>
+                        <label for="estandar">Más o menos</label>
+                        <input type="radio" value="estandar" name="opinion" id="estandar">
+                        <label for="malo">Malo</label>
+                        <input type="radio" name="opinion" id="malo" value="malo">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <h3 class="tituloFooter">Seguinos en nuestras redes sociales</h3>
+        <div>
+            <a href="https://open.spotify.com/show/23z7H23BjuShxRC0oEfCPG?si=a3073804bbf64a9b" target="_blank">
+                <img src="img/spotify.png" alt="Seguinos en Spotify" class="imagenFooter">
+            </a>
+            <a href="http://twitter.com/spotify" target="_blank">
+                <img src="img/twitter.png" alt="Seguinos en Twitter">
+            </a>
+            <a href="https://www.instagram.com/hartas.podcast/" target="_blank">
+                <img src="img/Instagram-logo.png" alt="Seguinos en Instagram" class="imagenFooter">
+            </a>
+            <a href="http://facebook.com" target=_blank>
+                <img src="img/facebook.png" alt="Seguinos en Facebook">
+            </a>
+            <a href="mailto:hartaspodcast@gmail.com" target="_blank">
+                <img src="img/logo-email.png" alt="Envianos un email" class="imagenFooter">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
